@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="solar">HOW WELL DO YOU KNOW YOUR SOLAR SYSTEM?</h1>
+    <div class="quiz-wrap">
+      <div class="quiz-card" id="q1">
+
+        <h1>1. Which planet is known as the Red Planet?</h1>
+        <p class="subtitle">Choose the correct answer below</p>
+
+        <div class="divider"></div>
+
+        <div class="options">
+          <label class="option-label" id="lbl-Venus-q1">
+            <input type="radio" name="answer1" value="Venus" />
+            <span class="option-bubble">A</span>
+            <span class="option-text">Venus</span>
+          </label>
+          <label class="option-label" id="lbl-Mars-q1">
+            <input type="radio" name="answer1" value="Mars" />
+            <span class="option-bubble">B</span>
+            <span class="option-text">Mars</span>
+          </label>
+          <label class="option-label" id="lbl-Jupiter-q1">
+            <input type="radio" name="answer1" value="Jupiter" />
+            <span class="option-bubble">C</span>
+            <span class="option-text">Jupiter</span>
+          </label>
+          <label class="option-label" id="lbl-Saturn-q1">
+            <input type="radio" name="answer1" value="Saturn" />
+            <span class="option-bubble">D</span>
+            <span class="option-text">Saturn</span>
+          </label>
+        </div>
+
+        <button class="submit-btn" id="submit-q1">
+          Confirm Answer <span class="arrow">→</span>
+        </button>
+
+        <p class="feedback" id="feedback-q1"></p>
+      </div>
+
+      <div class="quiz-card" id="q2">
+        <h1>2. Which planet is closest to the Sun?</h1>
+        <p class="subtitle">Choose the correct answer below</p>
+
+        <div class="divider"></div>
+
+        <div class="options">
+          <label class="option-label" id="lbl-Mercury-q2">
+            <input type="radio" name="answer2" value="Mercury" />
+            <span class="option-bubble">A</span>
+            <span class="option-text">Mercury</span>
+          </label>
+          <label class="option-label" id="lbl-Venus-q2">
+            <input type="radio" name="answer2" value="Venus" />
+            <span class="option-bubble">B</span>
+            <span class="option-text">Venus</span>
+          </label>
+          <label class="option-label" id="lbl-Earth-q2">
+            <input type="radio" name="answer2" value="Earth" />
+            <span class="option-bubble">C</span>
+            <span class="option-text">Earth</span>
+          </label>
+          <label class="option-label" id="lbl-Mars-q2">
+            <input type="radio" name="answer2" value="Mars" />
+            <span class="option-bubble">D</span>
+            <span class="option-text">Mars</span>
+          </label>
+        </div>
+
+        <button class="submit-btn" id="submit-q2">
+          Confirm Answer <span class="arrow">→</span>
+        </button>
+
+        <p class="feedback" id="feedback-q2"></p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
