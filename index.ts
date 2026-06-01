@@ -82,7 +82,7 @@ function handleSubmit(questionIndex: number) {
   if (state.submitted) return;
 
   if (state.selected === "") {
-    showFeedback(questionIndex, "warn", "⚠️ Please select an answer before submitting.");
+    showFeedback(questionIndex, "warn", "Please select an answer before submitting.");
     return;
   }
 
